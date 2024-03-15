@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="info">
+    <h1 id="title">Favorite Gorilla</h1>
+    <p id="description">This form is for finding which of the following gorillas is your favorite</p>
+    <h2 id="subtitle">Submitter Info:</h2>
+    <form id="survey-form" method="post" action=''>
+      <fieldset id="user">
+        <label id="name-label" for="name" class="inline">Name: <input type="text" id="name" class="inline" name="name" placeholder="(Enter Your Name)" required /></label>
+        <label id="email-label" for="email">Email: <input type="email" id="email" name="email" placeholder="(Enter Your Email)" required /></label>
+        <label id="number-label" for="age">Age: <input type="number" id="number" name="number" max="95" min="18" placeholder="(Age)" required /></label>
+      </fieldset>
+      <p>Select you favorite gorillas</p>
+      <label for="standing-gorilla" class="block">Standing Gorilla<input id="standing-gorilla" type="checkbox" name="checkbox" value="1"/><img src="https://wallpapers.com/images/hd/funny-gorilla-pictures-53o4gxcv18xi6xjo.jpg" alt="standing-gorilla" class="block"/></label>
+      <label for="tounge-gorilla" class="block">Tounge Gorilla<input id="tounge-gorilla" type="checkbox" name="checkbox" value="2"/><img src="https://home.adelphi.edu/~al21824/funny%20monkey.jpg" alt="tounge-gorilla" class="block"/></label>
+      <label for="active-gorilla" class="block">Active Gorilla<input id="active-gorilla" type="checkbox" name="checkbox" value="3"/><img src="https://i.natgeofe.com/n/701e422d-4d58-4ec1-9574-8bb1791d184b/2BNN0BJ_2x3.jpg" alt="active-gorilla" class="block"/></label>
+      <fieldset id="user">
+        <label for="dropdown">How do you feel about Gorillas: 
+          <select id="dropdown">
+          <option id="">(Please Select)</option>
+          <option id="1">I like Gorillas</option>
+          <option id="2">I am indifferent to Gorillas</option>
+          <option id="3">I dislike Gorillas</option>
+        </select></label>
+      </fieldset>
+      <fieldset id="user-input">
+        <textarea id="desciption" name="desciption" rows="3" cols="30" placeholder="(Describe your choice(s) here)"></textarea>
+      </fieldset>
+      <fieldset id="user-feedback">
+        <p>Would you recommend this survey to a friend?</p>
+        <label for="checkbox">Yes <input type="radio" value="1" name="choice" checked required /></label>
+        <label for="checkbox">No <input type="radio" value="2" name="choice" required /></label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </div>
+  </body>

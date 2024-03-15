@@ -1,0 +1,33 @@
+body{
+  margin: auto;
+  text-align: center;
+  background-image: url(https://m.media-amazon.com/images/I/81xUyygCLxL.jpg);
+  color: #FFFFFF;
+}
+
+img{
+  margin: auto;
+  width: 200px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.block{
+  display: block;
+}
+
+.inline{
+  display: inline;
+}
+
+.info {
+  width: 80%;
+  background-color: #30690A;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
